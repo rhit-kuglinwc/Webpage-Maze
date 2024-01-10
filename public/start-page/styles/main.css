@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #7a6fa6;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    padding: 50 300px; 
+}
+
+.container p {
+    font-size: calc(26px - 2 * (3 - 1)); 
+    margin: 30px 0; 
+}
+
+.example-path-button {
+    display: inline-block;
+    background-color: #808080; 
+    color: #000; 
+    font-size: 45px; 
+    padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 20px; 
+    font-weight: bold; 
+}
+
+.path-text-link {
+    cursor: pointer; 
+    font-size: 18px;
+    padding: 15px 50px;
+    border-radius: 10px;
+    display: inline-block;
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    text-align: left;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.example-image{
+    scale: 50%;
+}
